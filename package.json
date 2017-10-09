@@ -1,0 +1,31 @@
+{
+  "name": "move-item",
+  "version": "0.1.0",
+  "description": "a simple function to move an item in an array either up or down relative to it's siblings",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --ignore spec.js,test.js -s -D -d dist --presets es2015,stage-0",
+    "test": "jest"
+  },
+  "keywords": [
+    "sort-item",
+    "sortItem"
+  ],
+  "author": "Luke Warren",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.24.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4"
+  }
+}
