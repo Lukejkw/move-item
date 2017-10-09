@@ -1,8 +1,12 @@
 {
   "name": "move-item",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a simple function to move an item in an array either up or down relative to it's siblings",
   "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/Lukejkw/move-item",
+    "type": "git"
+  },
   "scripts": {
     "build": "babel src --ignore spec.js,test.js -s -D -d dist --presets es2015,stage-0",
     "test": "jest"
